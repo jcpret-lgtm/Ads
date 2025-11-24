@@ -15,7 +15,7 @@
         }
        header h1 { font-size:4.5rem; color: rgb(255, 127, 80); border-style: solid; border-color: black; opacity: 100;}
        header p { font-size:3rem; margin:15px 0; color:rgb(255, 69, 0); text-emphasis: calc(100%); opacity: 100;}
-       header { background:url('images/Supplements.jpg') center/cover no-repeat; margin-top: 10px; opacity:calc(70%); color:rgb(127, 179, 166); text-align:center; padding:70px 20px; }
+       header { background:url('images/Supplements.jpg') center/cover no-repeat; margin-top: 10px; opacity:calc(70%); color:rgb(127, 179, 166); text-align:center; padding:70px 20px; width: device-width }
       .cta-btn { background:#dd604a; color:white; padding:12px 24px; border:none; border-radius:4px; cursor:pointer; }
       .benefits { display:flex; flex-wrap:wrap; justify-content:center; padding:20px 20px; }
       .benefit { flex:1 1 200px; margin:10px; background:#fcdeb2; padding:20px; border-radius:8px; text-align:center;font-style: oblique; font-weight: 600; }
@@ -46,10 +46,13 @@
             opacity: 2;
         }
         .product-card img {
-            max-width: 100%;
+             max-width: 50%;
             height: auto;
             max-height: 250px;
             border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;			
                 }
            .product-details {
             margin-top: 10px;
@@ -57,7 +60,7 @@
         .product-details h3 {
             font-size: 20px;
             margin: 5px 0 10px;
-            text-align: left;
+            text-align: center;
         }
         .product-details p {
             margin: 5px 0;
@@ -171,6 +174,7 @@
     
 </body>
 </html>
+
 
 
 
