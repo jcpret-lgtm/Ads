@@ -15,7 +15,7 @@
             background-image:url(Images/Supplements.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: 480px;
+            background-size: cover;
             opacity: 0.9;
         }
        header h1 { font-size:4.5rem; color: rgb(255, 69, 0); border-style: solid; border-color: black; opacity: 100;}
@@ -76,7 +76,8 @@
         .product-card {
                 flex: 1 1 calc(50% - 20px);
             }}
-        @media (max-width: 480px) { header h1 { font-size:3.2rem; }
+        @media (max-width: 480px) {body {background-size: 480px; }
+		{ header h1 { font-size:3.2rem; }
 								 { header p { font-size:2.8rem; }
          .product-card {
                 flex: 1 1 100%;
@@ -179,6 +180,7 @@
     
 </body>
 </html>
+
 
 
 
